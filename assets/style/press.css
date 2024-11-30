@@ -1,0 +1,30 @@
+.grid{
+    padding: 20px;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.press-caption{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.press-caption a{
+    color: #000;
+}
+
+@media (max-width: 1000px){
+    .grid{
+        grid-template-columns: 1fr !important;
+        gap: 100px;
+    }
+
+    .grid .four-col{
+        margin-top: -80px;
+    }
+    .grid.container{
+        margin-top: 50px;
+    }
+}
